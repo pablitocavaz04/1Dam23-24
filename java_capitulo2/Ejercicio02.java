@@ -5,18 +5,16 @@
 /*                                                  |;                 :;   ;:     */
 /*   By: Pablo Camino Vázquez                      |;                  :;  ;:      */
 /*                                                |;                   :; ;:       */
-/*   Created: 2023/10/05 08:32 by pcamvaz        |::::::::::::   :+:   ;;;         */
-/*   Updated: 2023/10/05 08:33 by pcamvaz                                          */
+/*   Created: 2023/10/05 09:06 by pcamvaz        |::::::::::::   :+:   ;;;         */
+/*   Updated: 2023/10/05 09:09 by pcamvaz                                          */
 /*                                                                                 */
 /* ******************************************************************************* */
-package java_capitulo1;
 
-public class Ejercicio02
-{
-    public static void main(String[] args)
-    {
-        System.out.println("Pablo Camino Vázquez");
-        System.out.println("Pasillo de sierra blanca 14,1");
-        System.out.println("Tlf: 618381824");
+package java_capitulo2;
+
+public class Ejercicio02 {
+    public static void main(String[] args) {
+        String nombre = "Pablo Camino Vázquez";
+        System.out.println(nombre);
     }
 }
