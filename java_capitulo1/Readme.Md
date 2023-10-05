@@ -1,1 +1,2 @@
-Estos son ejercicios practicando la salida de pantalla con printf.
+Ejercicico primer capitulo de java pracitcando la salidad de pantalla sobre el printf.
+
