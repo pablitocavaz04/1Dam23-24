@@ -18,7 +18,8 @@ public class Ejercicio06
         int i;
         i = 320;
         System.out.print("Los numeros son = ");
-        do {
+        do 
+        {
             System.out.print(i+" ");
             i-=20;
         } while (i >= 160);
