@@ -1,27 +1,22 @@
 /* ******************************************************************************* */
-/*   File:Ejercicio03.java                                                         */
+/*   File:Ejercicio04.java                                                         */
 /*                                                    ::::::::::       :;     ;:   */
 /*                                                   |;                :;    ;:    */
 /*                                                  |;                 :;   ;:     */
 /*   By: Pablo Camino Vázquez                      |;                  :;  ;:      */
 /*                                                |;                   :; ;:       */
-/*   Created: 2023/10/17 13:14                   |::::::::::::   :+:   ;;;         */
-/*   Updated: 2023/10/17 13:18												       */
+/*   Created: 2023/10/17 13:18                   |::::::::::::   :+:   ;;;         */
+/*   Updated: 2023/10/17 13:22												       */
 /*                                                                                 */
 /* ******************************************************************************* */
 package java_capitulo5;
 
-public class Ejercicio03 
+public class Ejercicio04 
 {
     public static void main(String[] args) 
     {
-        int i;
-        i = 0;
-        System.out.print("Los multiplos de 5 son = ");
-        do 
-        {
+        System.out.print("Los numeros son = ");
+        for (int i = 320; i >=160 ; i-=20)
             System.out.print(i+" ");
-            i += 5;
-        } while (i <= 100);    
-    }
+    }    
 }
