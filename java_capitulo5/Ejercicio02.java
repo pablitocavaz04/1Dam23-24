@@ -11,8 +11,10 @@
 /* ******************************************************************************* */
 package java_capitulo5;
 
-public class Ejercicio02 {
-    public static void main(String[] args) {
+public class Ejercicio02 
+{
+    public static void main(String[] args) 
+    {
         int i;
         i = 0;
         System.out.print("Los multiplos de 5 son = ");
