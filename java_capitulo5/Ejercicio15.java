@@ -1,19 +1,19 @@
 /* ******************************************************************************* */
-/*   File:Ejercicio14.java                                                         */
+/*   File:Ejercicio15.java                                                         */
 /*                                                    ::::::::::       :;     ;:   */
 /*                                                   |;                :;    ;:    */
 /*                                                  |;                 :;   ;:     */
 /*   By: Pablo Camino Vázquez                      |;                  :;  ;:      */
 /*                                                |;                   :; ;:       */
-/*   Created: 2023/10/18 10:57                   |::::::::::::   :+:   ;;;         */
-/*   Updated: 2023/10/18 11:07												       */
+/*   Created: 2023/10/18 11:09                   |::::::::::::   :+:   ;;;         */
+/*   Updated: 2023/10/18 11:15												       */
 /*                                                                                 */
 /* ******************************************************************************* */
 package java_capitulo5;
 
 import java.util.Scanner;
 
-public class Ejercicio14 
+public class Ejercicio15 
 {
     public static void main(String[] args) 
     {
@@ -33,9 +33,9 @@ public class Ejercicio14
             for (int i = 1; i <= exponente; i++) 
             {
                 aux = base*aux;
-
+                System.out.println("La potencia de "+base+" elevado a "+i+" = "+aux);
             }
-            System.out.println("La potencia de "+base+" elevado a "+exponente+ " = "+aux);
         }
+        
     }
 }
