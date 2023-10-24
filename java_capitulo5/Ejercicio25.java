@@ -22,7 +22,8 @@ public class Ejercicio25
         int numero =Integer.parseInt(sc.nextLine());
         int aux = 0;
         int aux2 = 0;
-        while (numero > 0) {
+        while (numero > 0) 
+        {
             aux2 = (aux2*10)+(numero%10);
             numero/=10;
 
