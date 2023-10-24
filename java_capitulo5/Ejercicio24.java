@@ -29,7 +29,7 @@ public class Ejercicio24
                 System.out.print(j);
             for (int j = i; j >= 1; j--)
                 System.out.print(j);
-           System.out.println(" ");    
+            System.out.println(" ");    
         }
 
     }
