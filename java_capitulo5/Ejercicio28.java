@@ -13,9 +13,9 @@ package java_capitulo5;
 
 import java.util.Scanner;
 
-public class Ejercicio28 
+public class Ejercicio28
 {
-    public static void main(String[] args) 
+    public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
         System.out.print("Por favor, introduzca un numero entero: ");

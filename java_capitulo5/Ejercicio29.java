@@ -13,9 +13,9 @@ package java_capitulo5;
 
 import java.util.Scanner;
 
-public class Ejercicio29 
+public class Ejercicio29
 {
-    public static void main(String[] args) 
+    public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
         System.out.print("Introduzca un numero: ");
@@ -23,10 +23,10 @@ public class Ejercicio29
         System.out.print("Introduzca un numero por el cual no puede ser divisibles :");
         int nodiv = Integer.parseInt(sc.nextLine());
         System.out.println("Los numeros menores positivos que "+limite+" y que no son divisibles entre "+nodiv+" son :");
-        for (int i = 1; i <= limite; i++) {
-            if (i%nodiv != 0 ) {
+        for (int i = 1; i <= limite; i++)
+        {
+            if (i%nodiv != 0 )
                 System.out.print(i+" ");
-            }
         }
     }
 }
