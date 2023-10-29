@@ -9,7 +9,7 @@
 /*   Updated: 2023/10/29 19:11  											       */
 /*                                                                                 */
 /* ******************************************************************************* */
-
+package java_capitulo5;
 import java.util.Scanner;
 
 public class Ejercicio37 
