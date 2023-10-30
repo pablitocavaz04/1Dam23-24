@@ -13,8 +13,6 @@ package java_capitulo5;
 
 import java.util.Scanner;
 
-import javax.sound.midi.Soundbank;
-
 public class Ejercicio41 
 {
     public static void main(String[] args) 
