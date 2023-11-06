@@ -17,6 +17,6 @@ public class Ejercicio04
     {
         for (int i = 1; i <= 20; i++)
             System.out.print((int)(Math.random()*11)+" ");
-        System.out.println();
+    System.out.println();
     }
 }
