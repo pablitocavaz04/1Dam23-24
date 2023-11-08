@@ -47,9 +47,9 @@ public class Ejercicio63
                         System.out.print(" ");
                     for (int j = 1; j <= i*2-1; j++)
                         System.out.print("*");
-                    for (int j = 1; j <= alturaPir2*2-1; j++)
+                    for (int j = 1; j <= (alturaPir2-1)*2+1; j++)
                         System.out.print(" ");
-                    for (int j = 1; j <= (i-(piramide2+1))*2-1; j++)
+                    for (int j = 1; j <= i-alturaPir2-1; j++)
                         System.out.print("*");
                 alturaPir2--;
                 }
@@ -75,6 +75,18 @@ public class Ejercicio63
                         System.out.print("*");
                     alturaPir1--;
                 }
+                
+            }
+            else if (piramide1 == piramide2)
+            {
+                for (int j = 1; j <=altura-i ; j++)
+                    System.out.print(" ");
+                for (int j = 1; j <= i*2-1; j++)
+                    System.out.print("*");
+                for (int j = 1; j <= (altura-i)*2+1; j++)
+                    System.out.print(" ");
+                for (int j = 1; j <= i*2-1; j++)
+                    System.out.print("*");
             }
         System.out.println();
         }
