@@ -48,7 +48,7 @@ public class Ejercicio11
                 sobresalietes++;
             }
         }
-        System.out.println(a);
+        System.out.println();
         System.out.printf("El numero de suspensos es %d , de suficientes es %d, de bienes %d, de notables %d , y de sobresalientes %d",suspensos,suficientes,bienes,notables,sobresalietes);
     }
 }
