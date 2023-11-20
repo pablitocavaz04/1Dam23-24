@@ -1,30 +1,31 @@
 /* ******************************************************************************* */
-/*   File:Ejercicio2.java                                                         */
+/*   File:Ejercicio1.java                                                         */
 /*                                                    ::::::::::       :;     ;:   */
 /*                                                   |;                :;    ;:    */
 /*                                                  |;                 :;   ;:     */
 /*   By: Pablo Camino Vázquez                      |;                  :;  ;:      */
 /*                                                |;                   :; ;:       */
-/*   Created: 2023/11/15 12:06                   |::::::::::::   :+:   ;;;         */
-/*   Updated: 2023/11/15 12:13												       */
+/*   Created: 2023/11/15 11:59                   |::::::::::::   :+:   ;;;         */
+/*   Updated: 2023/11/15 12:04												       */
 /*                                                                                 */
-/* ******************************************************************************* */
+/* ******************************************************************************* */   
 package java_capitulo7.Array_Unidimensionales;
 
-public class Ejercicio2
+public class Ejercicio01
 {
     public static void main(String[] args)
     {
-        String [] simbolo = new String[10];
+        int [] num = new int[12];
+        
+        num [0] = 39;
+        num [1] = -2;
+        num [4] = 0;
+        num [6] = 14;
+        num [8] = 5;
+        num [9] = 120;
 
-        simbolo [0] = "a";
-        simbolo [1] = "x";
-        simbolo [4] = "@";
-        simbolo [6] = " ";
-        simbolo [7] = "+";
-        simbolo [8] = "Q";
-        for (int i = 0; i < simbolo.length; i++)
-        System.out.println("simbolo[" + i + "]: " + simbolo[i]);
-         
+        for (int i = 0; i < 12; i++)
+        System.out.printf("num[%2d]: %d\n", i, num[i]);
+
     }
 }
