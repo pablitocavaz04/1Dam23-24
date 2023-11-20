@@ -10,8 +10,10 @@
 /*                                                                                 */
 /* ******************************************************************************* */
 package java_capitulo7.Array_Unidimensionales;
-public class Ejercicio07 {
-    public static void main(String[] args) {
+public class Ejercicio07
+{
+    public static void main(String[] args)
+    {
         int[] numero = new int[100];
         int i;
         String verde = "\033[32m";
