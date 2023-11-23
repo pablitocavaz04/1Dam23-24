@@ -11,7 +11,7 @@
 /* ******************************************************************************* */
 package java_capitulo7.Array_Bidimensionales;
 
-public class Ejercicio1
+public class Ejercicio01
 {
     public static void main(String[] args)throws InterruptedException     {
         int [][] num = new int[3][6];
