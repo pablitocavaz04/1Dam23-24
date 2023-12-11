@@ -36,7 +36,7 @@ public class Ejercicio04
             for ( columna = 0; columna < 5; columna++)
             {
                 Thread.sleep(185);
-                System.out.printf("%7d  ",num[fila][columna]);
+                System.out.printf("%7d   ",num[fila][columna]);
                 sumaFila += num[fila][columna];
             }
             Thread.sleep(185);

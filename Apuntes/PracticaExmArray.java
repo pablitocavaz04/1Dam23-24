@@ -1,17 +1,17 @@
 /* ******************************************************************************* */
-/*   File:Ejercicio02.java                                                         */
+/*   File:PracticaExmArray.java                                                         */
 /*                                                    ::::::::::       :;     ;:   */
 /*                                                   |;                :;    ;:    */
 /*                                                  |;                 :;   ;:     */
 /*   By: Pablo Camino Vázquez                      |;                  :;  ;:      */
 /*                                                |;                   :; ;:       */
-/*   Created: 2023/11/23 09:39                   |::::::::::::   :+:   ;;;         */
-/*   Updated: 2023/11/23 09:39												       */
+/*   Created: 2023/12/11 09:38                   |::::::::::::   :+:   ;;;         */
+/*   Updated: 2023/12/11 09:38												       */
 /*                                                                                 */
 /* ******************************************************************************* */
-package java_capitulo7.Array_Bidimensionales;
+package Apuntes;
 import java.util.Scanner;
-public class PracticaExm{
+public class PracticaExmArray{
         public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int ancho=11;
