@@ -170,7 +170,7 @@ public class RepasoExm{
 
                 case 'e':
                     
-                    for(int i=0;i<ancho;i++){
+                for(int i=0;i<ancho;i++){
                         for(int j=0;j<ancho/2;j++){
                             auxiliarX=matriz[i][j];
                             matriz[i][j]=matriz[i][ancho-1-j];

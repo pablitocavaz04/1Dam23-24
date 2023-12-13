@@ -40,6 +40,32 @@ public class RepasoExm3
             System.out.println();
         }
     }
+    public static int[][] matrizEspejoHorizontal(int[][]matriz)
+    {
+        int ancho = matriz.length;
+        int[][] matrizEspejoHorizontal = new int[ancho][ancho];
+        for (int i = 0; i < matrizEspejoHorizontal.length; i++)
+        {
+            for (int j = 0; j < matrizEspejoHorizontal.length; j++)
+            {
+                matrizEspejoHorizontal[i][ancho-1-j] = matriz[i][j];
+            }
+        }
+        return matrizEspejoHorizontal;
+    }
+    public static int[][] matrizEspejoVertical(int[][]matriz)
+    {
+        int ancho = matriz.length;
+        int[][] matrizEspejoVertical = new int[ancho][ancho];
+        for (int i = 0; i < matrizEspejoVertical.length; i++)
+        {
+            for (int j = 0; j < matrizEspejoVertical.length; j++)
+            {
+                matrizEspejoVertical[i][ancho-1-j] = matriz[i][j];
+            }
+        }
+        return matrizEspejoVertical;
+    }
     public static int[][] rotarMatrizSentidoHorario(int[][]matriz)
     {
       int ancho = matriz.length;
