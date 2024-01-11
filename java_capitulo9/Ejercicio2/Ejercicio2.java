@@ -81,11 +81,11 @@ public class Ejercicio2
                     break;
                 case 3:
                 System.out.println("Cuantos km vas a recorrer: ");
-                    int kilometros = Integer.parseInt(System.console().readLine());
-                    andar(coche, kilometros);
+                   // int kilometros = Integer.parseInt(System.console().readLine());
+                   // andar(coche, kilometros);
                     break;
                 case 4:
-                    System.out.println(quemaRueda(coche));
+                    //System.out.println(quemaRueda(coche));
                 case 5:
                 System.out.println("La bici lleva recorrido : ");
                 System.out.println("");
