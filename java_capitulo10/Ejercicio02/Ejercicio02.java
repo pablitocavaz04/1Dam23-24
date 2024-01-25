@@ -42,7 +42,7 @@ public class Ejercicio02
             System.out.println("El valor minimo es : "+minimo);
             System.out.println("El valor maximo es : "+maximo);
         System.out.println("La suma de todo los valores es : "+media);
-        System.out.println("La media de todos los numeros es : "+(media/arraySize));
+        System.out.println("La media de todos los numeros es : "+(media/ValAl.size()));
 
         }
 }
